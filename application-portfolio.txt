@@ -1,0 +1,23 @@
+
+apps--->
+    python manage.py startapp blog
+
+    python manage.py startapp jobs
+
+
+models-->
+    connected with the database
+
+    blog/models.py
+    jobs/models.py
+
+    python manage.py migrate
+
+    portfolio/settings.py --> register models , and directory for media files , and url for media
+
+    python manage.py makemigrations ---> to update database
+
+    python manage.py migrate
+
+
+    pip install pillow

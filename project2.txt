@@ -1,0 +1,21 @@
+1. install virtual enviornment 
+    --> pip3 install virtualenv
+
+2. location to save your virtualenv
+    --> virtualenv <venv-name> 
+            this command will make a directory by name <venv-name>
+
+3. activate virtual env 
+    --> source <venv-name>/bin/activate
+
+    --><venv-name>\Scripts\activate  (for windows)
+
+    now you will enter into virtual enviornment
+
+    to deactivate it --> deactivate
+
+4. activate virtual enviornment , and install django
+
+    pip install django==2.2.*
+
+whatever you want to do , enter in venv and then do it
