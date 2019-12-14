@@ -21,3 +21,12 @@ models-->
 
 
     pip install pillow
+
+
+    admin-->
+
+        python manage.py createsuperuser 
+
+        rgister models in admin.py
+
+        add static inside urls.py
