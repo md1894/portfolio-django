@@ -30,3 +30,15 @@ models-->
         rgister models in admin.py
 
         add static inside urls.py
+
+    static files -->
+         {% load staticfiles %} in that html
+
+         prepare one folder name static inside project portfolio
+
+         then do static related changes in settings.py
+
+         then hit command ----> python manage.py collectstatic 
+
+         this command will copy all the static files throughout the project into the static folder present into the root directory
+         of project
