@@ -42,3 +42,9 @@ models-->
 
          this command will copy all the static files throughout the project into the static folder present into the root directory
          of project
+
+
+    admin password 
+
+        admin
+        123456
